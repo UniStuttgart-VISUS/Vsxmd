@@ -110,7 +110,7 @@ namespace Vsxmd.Units
         /// <returns>The element at the specified position in the <paramref name="source"/> sequence.</returns>
         internal static TSource NthLast<TSource>(
             this IEnumerable<TSource> source, int index) =>
-            source.Reverse().ElementAt(index - 1);
+            source.Reverse().ElementAtOrDefault(index - 1); // TODO: is ...OrDefault the right hack here?
 
         /// <summary>
         /// Take all element except the last <paramref name="count"/>.
