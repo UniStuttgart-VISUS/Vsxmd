@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Vsxmd": {
+      "commandName": "Project",
+      "commandLineArgs": "\"T:\\Programmcode\\power-overwhelming\\_build64\\power_overwhelming\\Debug\\power_overwhelming.xml\""
+    }
+  }
+}
